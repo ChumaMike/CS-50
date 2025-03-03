@@ -8,7 +8,7 @@ while True:
             x = random.randrange(1, n+1)
             while True:
                 try:
-                    guess = int(input("guess int? "))
+                    guess = int(input("Guess: "))
                     if guess > 0:
                         if guess < x:
                             print("Too small!")
